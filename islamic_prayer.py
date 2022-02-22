@@ -1,7 +1,7 @@
 i = 0
 while i < 1001:
     if i < 1000:
-        action = str(input()).capitalize()  # Enter Tour action here Y or R.
+        action = str(input()).capitalize()  # Enter your action here Y or R.
         if action == 'Y':
             print(i + 1)
             i += 1
